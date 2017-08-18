@@ -1,0 +1,38 @@
+.comment_list{
+	background: #d2d1d1;
+    margin-bottom:30px;
+}
+.comment_item{
+	
+	padding: 20px;
+}
+.comment_item:nth-child(odd)
+{
+	background:#dedede;
+}
+.comment_item:nth-child(even)
+{
+	background:#bebed0;
+}
+.del_button
+{
+	
+    display: inline-block;
+    /* float: right; */
+    padding: 5px;
+	border-radius:3px;
+    color: #fff;
+	background: #7f7c7c;
+	text-decoration:none;
+}
+.del_button:hover
+{
+	color: #fff;
+	background: #6f6c6c;
+	text-decoration:none;
+}
+.comment_item p span
+{
+    display: inline-block;
+    margin-right: 20px;
+}
